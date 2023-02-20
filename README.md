@@ -13,11 +13,11 @@ A robust predictor for hERG channel blockade based on deep learning meta-feature
 Second task is to prepare model for production by serving the model as API and package into Docker.
 
 *   [ ] **Organising the code**
-*   [x] **Building the REST API**
+*   [x] **Building the REST API** --- using [Flask](https://palletsprojects.com/p/flask/)
 *   [ ] **Wrapping served model into Docker**
-*   [x] **Testing**
+*   [x] **Testing** --- using [PyTest](https://docs.pytest.org/en/7.2.x/getting-started.html)
 *   [ ] **Logging**
-*   [ ] **Load testing of deployed model inference**
+*   [x] **Load testing of deployed model inference** --- using [Locust](https://locust.io/)
 
 ## Docker Run:
 
