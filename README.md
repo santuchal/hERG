@@ -36,6 +36,7 @@ It'll automatically test the routes.
 
 
 ## Logging: 
+Install gunicorn and check the logging for user. 
 
 ## Load Testing:
 Install locust and go to the test/locustfiles. 
