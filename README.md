@@ -16,7 +16,7 @@ Second task is to prepare model for production by serving the model as API and p
 *   [x] **Building the REST API** --- using [Flask](https://palletsprojects.com/p/flask/)
 *   [ ] **Wrapping served model into Docker**
 *   [x] **Testing** --- using [PyTest](https://docs.pytest.org/en/7.2.x/getting-started.html)
-*   [ ] **Logging**
+*   [x] **Logging** --- using [gunicorn](https://gunicorn.org/)
 *   [x] **Load testing of deployed model inference** --- using [Locust](https://locust.io/)
 
 ## Docker Run:
