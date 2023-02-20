@@ -5,14 +5,14 @@ A robust predictor for hERG channel blockade based on deep learning meta-feature
 ### **Task:**
 
 *   [x] **Prepare the data for modelling in active learning fashion in Jupyter Notebook**
-*   [ ] **Choose data representation**
-*   [ ] **Build starting model**
-*   [ ] **Decide upon active learning strategy and apply it to improve your model**
-*   [ ] **Decide when to stop labelling new data in lab as labelling compounds via lab experiments isalways additional cost**
+*   [x] **Choose data representation**
+*   [x] **Build starting model**
+*   [x] **Decide upon active learning strategy and apply it to improve your model**
+*   [x] **Decide when to stop labelling new data in lab as labelling compounds via lab experiments isalways additional cost**
 
 Second task is to prepare model for production by serving the model as API and package into Docker.
 
-*   [ ] **Organising the code**
+*   [x] **Organising the code**
 *   [x] **Building the REST API** --- using [Flask](https://palletsprojects.com/p/flask/)
 *   [ ] **Wrapping served model into Docker**
 *   [x] **Testing** --- using [PyTest](https://docs.pytest.org/en/7.2.x/getting-started.html)

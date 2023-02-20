@@ -1,6 +1,7 @@
 import sys
 from flask import Flask, Response, request, jsonify, Blueprint
 import os
+from new.descriptor_check import *
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
 
 from errors import errors
@@ -15,7 +16,8 @@ def default_route():
 @app.route('/predict')
 def predict():
 	smile = request.args.get('smile')
-	return smile
+	acc = smile_descriptor_test_with_model(smile)
+	return str(acc)
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000)
