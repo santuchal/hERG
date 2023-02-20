@@ -4,7 +4,7 @@ A robust predictor for hERG channel blockade based on deep learning meta-feature
 
 ### **Task:**
 
-*   [ ] **Prepare the data for modelling in active learning fashion in Jupyter Notebook**
+*   [x] **Prepare the data for modelling in active learning fashion in Jupyter Notebook**
 *   [ ] **Choose data representation**
 *   [ ] **Build starting model**
 *   [ ] **Decide upon active learning strategy and apply it to improve your model**
