@@ -2,6 +2,7 @@ import sys
 from flask import Flask, Response, request, jsonify, Blueprint
 import os
 from new.descriptor_check import *
+
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
 
 from errors import errors
