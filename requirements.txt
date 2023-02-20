@@ -1,0 +1,7 @@
+Flask
+numpy
+pandas
+rdkit
+mordred
+tensorflow
+scikit-learn
