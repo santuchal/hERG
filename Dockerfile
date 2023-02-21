@@ -8,8 +8,7 @@ EXPOSE 5000
 COPY ./requirements.txt .
 RUN pip install -r requirements.txt
 
-COPY src/ src/
-COPY saved_model/ saved_model/
+COPY . .
 
 # CMD ["gunicorn"  , "-b", "0.0.0.0:5000", "src/main:app"]
 
